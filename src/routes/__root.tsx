@@ -112,27 +112,28 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:site_name", content: "Thalia Martins Psicologia" },
       {
         property: "og:title",
-        content: "Thalia Martins — Psicóloga Clínica no Tatuapé",
+        content: "Thalia Martins — Psicóloga Clínica no Tatuapé | TCC Presencial e Online",
       },
       {
         property: "og:description",
         content:
-          "Terapia Cognitivo-Comportamental presencial e online. Escuta qualificada e plano terapêutico personalizado.",
+          "Psicóloga clínica em São Paulo — Thalia Martins (CRP 06/209739). Terapia Cognitivo-Comportamental presencial no Tatuapé e online, com plano terapêutico personalizado para jovens adultos e adultos.",
       },
       { name: "twitter:card", content: "summary_large_image" },
       {
         name: "twitter:title",
-        content: "Thalia Martins — Psicóloga Clínica",
+        content: "Thalia Martins — Psicóloga Clínica no Tatuapé | TCC Presencial e Online",
       },
       {
         name: "twitter:description",
         content:
-          "Psicóloga clínica no Tatuapé, São Paulo. TCC presencial e online.",
+          "Psicóloga clínica em São Paulo — Thalia Martins (CRP 06/209739). Terapia Cognitivo-Comportamental presencial no Tatuapé e online, com plano terapêutico personalizado para jovens adultos e adultos.",
       },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/c225b5ff-ded3-4c63-a0fe-3b28492cb9ae/id-preview-7c02ede2--c948e52e-62c2-47d8-bdb8-746f351e9484.lovable.app-1784667848526.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/c225b5ff-ded3-4c63-a0fe-3b28492cb9ae/id-preview-7c02ede2--c948e52e-62c2-47d8-bdb8-746f351e9484.lovable.app-1784667848526.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
-      { rel: "icon", href: "/favicon.ico", type: "image/x-icon" },
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
       { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
       {
