@@ -10,7 +10,7 @@ export const Route = createFileRoute("/")({
   component: LandingPage,
 });
 
-const WHATSAPP_NUMBER = "5511000000000"; // TODO: substituir pelo número real
+const WHATSAPP_NUMBER = "5511965175738";
 const WHATSAPP_MSG = encodeURIComponent(
   "Olá, Thalia! Gostaria de agendar uma sessão.",
 );
