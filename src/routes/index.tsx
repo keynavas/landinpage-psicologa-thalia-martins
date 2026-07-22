@@ -1,6 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
-import heroImg from "@/assets/thalia-hero.jpg";
+import heroAsset from "@/assets/thalia-hero.png.asset.json";
 import officeImg from "@/assets/office.jpg";
 
 export const Route = createFileRoute("/")({
@@ -217,7 +217,7 @@ function LandingPage() {
               />
               <div className="relative overflow-hidden rounded-[1.75rem] shadow-[0_40px_80px_-40px_rgba(60,80,60,0.35)]">
                 <img
-                  src={heroImg}
+                  src={heroAsset.url}
                   alt="Thalia Martins, psicóloga clínica, em seu consultório no Tatuapé"
                   width={1024}
                   height={1280}
