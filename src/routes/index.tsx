@@ -173,7 +173,7 @@ function LandingPage() {
               </p>
               <div className="mt-9 flex flex-wrap gap-3">
                 <a
-                  href={WHATSAPP_URL}
+                  href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ3yQUGpfhcUhhm5q2Yy7Ijc00Sg3cNmw8O1STnM0qHH3PzFR5-hafoEeOc0EsKvdnFyTGizWZOQ"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 rounded-full bg-primary px-7 py-3.5 text-sm font-medium text-primary-foreground shadow-[0_20px_40px_-20px_rgba(70,100,70,0.55)] transition-all hover:translate-y-[-1px] hover:brightness-105"
