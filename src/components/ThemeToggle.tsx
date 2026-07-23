@@ -23,6 +23,8 @@ export function ThemeToggle({ className = "" }: { className?: string }) {
     if (!mounted) return;
     const root = document.documentElement;
     root.classList.toggle("dark", theme === "dark");
+    const meta = document.querySelector('meta[name="color-scheme"]');
+    if (meta) meta.setAttribute("content", theme);
     window.localStorage.setItem("theme", theme);
   }, [theme, mounted]);
 
