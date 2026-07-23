@@ -40,6 +40,7 @@
 }
 
 :root {
+  color-scheme: light;
   --radius: 0.5rem;
   /* Warm off-white */
   --background: oklch(0.985 0.008 85);
