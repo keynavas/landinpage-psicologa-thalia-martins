@@ -90,6 +90,7 @@ function LandingPage() {
             </ul>
           </nav>
           <div className="flex items-center gap-3">
+            <ThemeToggle />
             <a
               href={WHATSAPP_URL}
               target="_blank"
