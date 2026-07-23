@@ -93,7 +93,7 @@ function LandingPage() {
           <div className="flex items-center gap-3">
             <ThemeToggle />
             <a
-              href={WHATSAPP_URL}
+              href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ3yQUGpfhcUhhm5q2Yy7Ijc00Sg3cNmw8O1STnM0qHH3PzFR5-hafoEeOc0EsKvdnFyTGizWZOQ"
               target="_blank"
               rel="noopener noreferrer"
               className="hidden md:inline-flex items-center gap-2 rounded-full border border-primary/25 bg-primary px-5 py-2 text-sm font-medium text-primary-foreground shadow-[0_1px_0_rgba(255,255,255,0.15)_inset,0_10px_30px_-15px_rgba(80,110,80,0.6)] transition-all hover:brightness-105"
@@ -254,7 +254,7 @@ function LandingPage() {
             </div>
             <div className="space-y-5 text-[1.02rem] leading-relaxed text-foreground/85">
               <p>
-                Acredito que o cuidado psicológico começa antes da fala — na forma
+                Acredito que o cuidado psicológico começa antes da fala na forma
                 como um espaço acolhe, na maneira como se escuta. Meu trabalho é
                 construído sobre esse princípio: um ambiente sereno, sigiloso e
                 livre de julgamentos, onde cada paciente pode se descobrir no seu
@@ -264,7 +264,7 @@ function LandingPage() {
                 Ao longo da minha formação, aprofundei-me na Terapia
                 Cognitivo-Comportamental por sua clareza científica e por seu
                 respeito ao ritmo de cada pessoa. Cada plano terapêutico é
-                cuidadosamente desenhado — porque a sua história nunca cabe em um
+                cuidadosamente desenhado porque a sua história nunca cabe em um
                 protocolo.
               </p>
               <p>
@@ -326,7 +326,7 @@ function LandingPage() {
             <p className="text-[1.02rem] leading-relaxed text-foreground/85">
               A TCC é uma abordagem baseada em evidências que investiga como
               pensamentos, emoções e comportamentos se conectam. Não é sobre
-              controlar sentimentos, mas sobre compreendê-los — e, a partir daí,
+              controlar sentimentos, mas sobre compreendê-los e, a partir daí,
               construir formas mais saudáveis de responder ao que a vida
               apresenta. É uma terapia colaborativa, prática e profundamente
               respeitosa com o tempo de cada pessoa.
@@ -420,7 +420,7 @@ function LandingPage() {
                 className="inline-flex items-center justify-center gap-2 self-start rounded-full border border-foreground/15 px-6 py-3.5 text-sm font-medium hover:bg-foreground/[0.04]"
               >
                 <WhatsIcon className="h-4 w-4" />
-                Receber aviso pelo WhatsApp
+                Confira pelo WhatsApp
               </a>
             </div>
           </div>
@@ -487,7 +487,7 @@ function LandingPage() {
                   Abrir no Google Maps
                 </a>
                 <a
-                  href={WHATSAPP_URL}
+                  href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ3yQUGpfhcUhhm5q2Yy7Ijc00Sg3cNmw8O1STnM0qHH3PzFR5-hafoEeOc0EsKvdnFyTGizWZOQ"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 rounded-full border border-foreground/15 px-5 py-3 text-sm font-medium hover:bg-foreground/[0.04]"
