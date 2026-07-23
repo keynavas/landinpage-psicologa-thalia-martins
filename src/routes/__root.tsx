@@ -107,7 +107,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       },
       { name: "author", content: "Thalia Martins" },
       { name: "theme-color", content: "#e8ece0" },
-      { name: "color-scheme", content: "light dark" },
+      { name: "color-scheme", content: "light" },
       { property: "og:type", content: "website" },
       { property: "og:locale", content: "pt_BR" },
       { property: "og:site_name", content: "Thalia Martins Psicologia" },
