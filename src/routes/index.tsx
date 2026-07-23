@@ -2,6 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
 import heroImage from "@/assets/thalia-hero.png";
 import officeImg from "@/assets/office.jpg";
+import { ThemeToggle } from "@/components/ThemeToggle";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -89,6 +90,7 @@ function LandingPage() {
             </ul>
           </nav>
           <div className="flex items-center gap-3">
+            <ThemeToggle />
             <a
               href={WHATSAPP_URL}
               target="_blank"
