@@ -17,9 +17,10 @@ const WHATSAPP_MSG = encodeURIComponent(
 );
 const WHATSAPP_URL = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MSG}`;
 const ADDRESS = "Rua Catiguá, 159 — Tatuapé, São Paulo — SP";
+const MAPS_QUERY = "Psicóloga Thalia Martins";
 const MAPS_URL =
   "https://www.google.com/maps/search/?api=1&query=" +
-  encodeURIComponent(ADDRESS);
+  encodeURIComponent(MAPS_QUERY);
 
 function WhatsIcon({ className = "h-5 w-5" }: { className?: string }) {
   return (
@@ -498,8 +499,8 @@ function LandingPage() {
             </div>
             <div className="overflow-hidden rounded-2xl border border-border/70 shadow-sm">
               <iframe
-                title="Mapa do consultório - Rua Catiguá, 159, Tatuapé, São Paulo"
-                src={`https://www.google.com/maps?q=${encodeURIComponent(ADDRESS)}&output=embed`}
+                title="Mapa - Psicóloga Thalia Martins"
+                src={`https://www.google.com/maps?q=${encodeURIComponent(MAPS_QUERY)}&output=embed`}
                 width="100%"
                 height="100%"
                 loading="lazy"
