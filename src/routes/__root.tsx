@@ -107,7 +107,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       },
       { name: "author", content: "Thalia Martins" },
       { name: "theme-color", content: "#e8ece0" },
-      { name: "color-scheme", content: "light dark" },
+      { name: "color-scheme", content: "light" },
       { property: "og:type", content: "website" },
       { property: "og:locale", content: "pt_BR" },
       { property: "og:site_name", content: "Thalia Martins Psicologia" },
@@ -144,7 +144,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     ],
     scripts: [
       {
-        children: `(function(){try{var t=localStorage.getItem('theme');if(t==='dark'){document.documentElement.classList.add('dark');}}catch(e){}})();`,
+        children: `(function(){try{var t=localStorage.getItem('theme');var m=document.querySelector('meta[name="color-scheme"]');if(t==='dark'){document.documentElement.classList.add('dark');if(m)m.setAttribute('content','dark');}else{if(m)m.setAttribute('content','light');}}catch(e){}})();`,
       },
       {
         type: "application/ld+json",
