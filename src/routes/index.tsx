@@ -17,9 +17,10 @@ const WHATSAPP_MSG = encodeURIComponent(
 );
 const WHATSAPP_URL = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MSG}`;
 const ADDRESS = "Rua Catiguá, 159 — Tatuapé, São Paulo — SP";
+const MAPS_QUERY = "Psicóloga Thalia Martins";
 const MAPS_URL =
   "https://www.google.com/maps/search/?api=1&query=" +
-  encodeURIComponent(ADDRESS);
+  encodeURIComponent(MAPS_QUERY);
 
 function WhatsIcon({ className = "h-5 w-5" }: { className?: string }) {
   return (
