@@ -18,10 +18,17 @@ The website was designed with a focus on simplicity, user experience, and conver
 ## Technologies Used
 
 * **Lovable** — Application development and project structure.
-* **Vercel** — Hosting and continuous deployment.
 * **React** — User interface development.
 * **TypeScript** — Static typing for improved code reliability.
 * **Tailwind CSS** — Modern and responsive styling.
+* **Vercel** — Hosting and continuous deployment.
+
+## Infrastructure
+
+* **Domain Registration:** Registro.br
+* **DNS Management:** Registro.br
+* **Hosting & Deployment:** Vercel
+* **Development Platform:** Lovable
 
 ## Project Goals
 
@@ -29,10 +36,10 @@ The main objective of this landing page is to provide a welcoming and seamless e
 
 ## Live Website
 
-The project is deployed on Vercel and available at:
+The project is available at:
 
 **https://www.thaliamartins.com.br**
 
 ## Author
 
-Developed by **Yuri Navas** using Lovable and Vercel.
+Developed by **Yuri Navas** using Lovable and deployed on Vercel.
