@@ -499,8 +499,8 @@ function LandingPage() {
             </div>
             <div className="overflow-hidden rounded-2xl border border-border/70 shadow-sm">
               <iframe
-                title="Mapa do consultório - Rua Catiguá, 159, Tatuapé, São Paulo"
-                src={`https://www.google.com/maps?q=${encodeURIComponent(ADDRESS)}&output=embed`}
+                title="Mapa - Psicóloga Thalia Martins"
+                src={`https://www.google.com/maps?q=${encodeURIComponent(MAPS_QUERY)}&output=embed`}
                 width="100%"
                 height="100%"
                 loading="lazy"
