@@ -93,7 +93,7 @@ function LandingPage() {
           <div className="flex items-center gap-3">
             <ThemeToggle />
             <a
-              href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ3yQUGpfhcUhhm5q2Yy7Ijc00Sg3cNmw8O1STnM0qHH3PzFR5-hafoEeOc0EsKvdnFyTGizWZOQ"
+              href={WHATSAPP_URL}
               target="_blank"
               rel="noopener noreferrer"
               className="hidden md:inline-flex items-center gap-2 rounded-full border border-primary/25 bg-primary px-5 py-2 text-sm font-medium text-primary-foreground shadow-[0_1px_0_rgba(255,255,255,0.15)_inset,0_10px_30px_-15px_rgba(80,110,80,0.6)] transition-all hover:brightness-105"
@@ -173,7 +173,7 @@ function LandingPage() {
               </p>
               <div className="mt-9 flex flex-wrap gap-3">
                 <a
-                  href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ3yQUGpfhcUhhm5q2Yy7Ijc00Sg3cNmw8O1STnM0qHH3PzFR5-hafoEeOc0EsKvdnFyTGizWZOQ"
+                  href={WHATSAPP_URL}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 rounded-full bg-primary px-7 py-3.5 text-sm font-medium text-primary-foreground shadow-[0_20px_40px_-20px_rgba(70,100,70,0.55)] transition-all hover:translate-y-[-1px] hover:brightness-105"
